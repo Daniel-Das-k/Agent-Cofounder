@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if user_data %}
+        <p>Logged IN as {{user_data.username}}#{{user_data.discriminator}}</p>
+        <p>ID: {{user_data.id}}</p><br/>
+        <a href="/logout"><button>Logout</button></a>
+    {% else %}
+        <a href="{{oauth_uri}}"><button>Connect with Facebook</button></a>
+    {% endif %}
+</body>
+</html>

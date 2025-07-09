@@ -1,0 +1,10 @@
+[server]
+runOnSave = true
+headless = false
+maxUploadSize = 2
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"

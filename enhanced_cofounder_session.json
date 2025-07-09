@@ -1,0 +1,28 @@
+[
+  {
+    "state": {
+      "startup_idea": "smart glasses for visually imparied people",
+      "current_phase": "market",
+      "conversation_history": [],
+      "research_insights": {},
+      "market_messages": [],
+      "product_messages": [],
+      "finance_messages": [],
+      "coordinator_messages": [],
+      "market_phase_complete": false,
+      "product_phase_complete": false,
+      "finance_phase_complete": false,
+      "key_market_insights": [],
+      "key_product_insights": [],
+      "key_finance_insights": []
+    },
+    "node": {
+      "node_id": "MarketAnalysisPhase"
+    },
+    "start_ts": "2025-07-06T19:06:09.057616Z",
+    "duration": null,
+    "status": "running",
+    "kind": "node",
+    "id": "MarketAnalysisPhase:84a1b8fef0d2406aa736ea51226d8446"
+  }
+]

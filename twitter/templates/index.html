@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter OAuth</title>
+</head>
+<body>
+    {% if user_info %}
+        <h1>Welcome</h1>
+        <p>User ID: {{ user_info }}</p>
+        <p>User Name: {{ username }}</p>
+        <a href="/logout"><button>Logout</button></a>
+    {% else %}
+        <a href="{{ oauth_uri }}">Login with Twitter</a>
+    {% endif %}
+</body>
+</html>
+
+</html>
